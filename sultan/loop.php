@@ -14,22 +14,22 @@
     $hewan = ['kucing', 'ayam', 'domba', 'kambing'];
 
 //--------foreach---------
- foreach($hewan as $m){
-     echo "----------------";
-     echo $m;
-     echo "----------------- <br> ";
- }
+//  foreach($hewan as $m){
+//      echo "----------------";
+//      echo $m;
+//      echo "----------------- <br> ";
+//  }
 
- $data = ['nama' => 'sulthan',
-          'umur' => '16 tahun',
-          'sifat' => 'ga busa diem'];
+//  $data = ['nama' => 'sulthan',
+//           'umur' => '16 tahun',
+//           'sifat' => 'ga busa diem'];
 
-          foreach($data as $key => $value){
-             echo $key . "<br>";
-          }
+//           foreach($data as $key => $value){
+//              echo $key . "<br>";
+//           }
 
     //-----------WHILE & DO WHILE--------
-    while(syarat)
+    //while(syarat)
     
     $i = 0;
 
