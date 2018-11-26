@@ -23,7 +23,7 @@
 //    operator matematik 
 //    ++ * -- / % 
    
-   nama  = nilai 
+//    nama  = nilai 
     $angka = $angka + $angka2;
     echo " <br> ";
 //    round and rand 

@@ -30,22 +30,22 @@
 
 // echo " <br> ";
 
-// echo round($angka4);
-// echo " <br> ";
-// echo "Nomor Urut Kamu adalah " . rand(1, 99);
+echo round($angka4);
+echo " <br> ";
+echo "Nomor Urut Kamu adalah " . rand(1, 99);
 
 // $text= "Kamu jelek tau ga !";   
 // echo str_replace("jelek","ganteng", $text);
 
-$array = array('Merah', 'Kuning', 'Biru');
-print_r($array) ;
-echo ' <br> ';
-echo $array[2];
+// $array = array('Merah', 'Kuning', 'Biru');
+// print_r($array) ;
+// echo ' <br> ';
+// echo $array[2];
 
 
-$bambang = ['Baba', 'Biba', 'Sasa'];
-echo ' <br>';
-echo $bambang[2];
+// $bambang = ['Baba', 'Biba', 'Sasa'];
+// echo ' <br>';
+// echo $bambang[2];
 
 
 
