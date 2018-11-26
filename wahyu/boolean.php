@@ -15,14 +15,45 @@
     // $data1 = false;
 
     //if dan else
-    $password = 'tkj';
+    // $password = 'tkj';
 
-    if ($password == 'tkj2') {
-        echo 'benar boy';
+    // if ($password == 'tkj2') {
+    //     echo 'benar boy';
+    // }else{
+    //     echo 'kurang tamvan';
+    // }
+
+    
+    $uang       = 5000;
+    $bakso      = 10000;
+    $uang_temen = 20000;
+
+    // menggunakan || ( kalau menggunakan || tidak perlu menggunakan elseif )
+    // if( $uang > $bakso || $uang_temen > $bakso){
+    //     echo "boleh beli bakso";
+    // }else{
+    //     echo "tidak bisa beli";
+    // }
+
+    // menggunakan &&
+    if( $uang > $bakso && $uang_temen > $bakso){
+        echo "boleh beli bakso";
     }else{
-        echo 'kurang tamvan';
+        echo "tidak bisa beli";
     }
 
+    // lebih dari 1 syarat menggunakan elseif
+    // if( $uang > $bakso ){
+    //     echo "Makasih bro";
+    // }elseif ($uang_temen > $bakso) {
+    //     echo "Makasih bro!";
+    //     if($uang_temen >= $bakso * 2 ){
+    //         echo " udah dibayar sama temenmu";
+    //     }
+    // }
+    // else{
+    //     echo "kurang bro";
+    // }
 
 
 ?>
