@@ -16,13 +16,38 @@
     // $hasil2 = false;
 
     //----------- if dan else -----------
-    $password = 'sulthan';
+    //----operator logika---
+    //-------------else if 
+    // == === > >= < <= !=
+    // $password = 'sulthan';
 
-    if( $password == 'sulthan'){
-        echo 'selamat anda berhasil masuk';
-    }else{
-        echo 'gagal! kamu salah memasukan password';
-    }
+    // if( $password == 'sulthan'){
+    //     echo 'selamat anda berhasil masuk';
+    // }else{
+    //     echo 'gagal! kamu salah memasukan password';
+    // }
+
+        $uang_programer = 1000;
+        $keyboard       = 2000;
+        $uang_desingner = 3000;
+        
+        if( $uang_programer > $keyboard){
+            echo 'dibeli';
+        }else if( $uang_desingner > $keyboard){
+            echo 'dibeli oleh desingner';
+        }
+        else{
+            echo 'ga dibeli';
+        }
+
+
+
+
+
+
+
+
+
 
 
     ?>
