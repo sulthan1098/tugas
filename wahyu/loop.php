@@ -43,19 +43,19 @@
     //while(syarat) melihat syarat terlebih dahulu baru eksekusi
     $i = 0;
 
-    // while ($i  < count($makan) ) {
-    //     echo $makan[$i]. "<br>";
-    //     $i++;   
-    // }
+    while ($i  < count($makan) ) {
+        echo $makan[$i]. "<br>";
+        $i++;   
+    }
 
     //do = eksekusi sekali baru melihat syarat
-    do {
-        echo $makan[$i]. "<br>";
-        $i++;
-    } while ($i  < count($makan));
+    // do {
+    //     echo $makan[$i]. "<br>";
+    //     $i++;
+    // } while ($i  < count($makan));
 
 
-
+q
 
     ?>
 </body>
