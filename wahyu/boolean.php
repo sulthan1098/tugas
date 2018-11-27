@@ -24,9 +24,9 @@
     // }
 
     
-    $uang       = 5000;
-    $bakso      = 10000;
-    $uang_temen = 20000;
+    // $uang       = 5000;
+    // $bakso      = 10000;
+    // $uang_temen = 20000;
 
     // menggunakan || ( kalau menggunakan || tidak perlu menggunakan elseif )
     // if( $uang > $bakso || $uang_temen > $bakso){
@@ -36,11 +36,11 @@
     // }
 
     // menggunakan &&
-    if( $uang > $bakso && $uang_temen > $bakso){
-        echo "boleh beli bakso";
-    }else{
-        echo "tidak bisa beli";
-    }
+    // if( $uang > $bakso && $uang_temen > $bakso){
+    //     echo "boleh beli bakso";
+    // }else{
+    //     echo "tidak bisa beli";
+    // }
 
     // lebih dari 1 syarat menggunakan elseif
     // if( $uang > $bakso ){
@@ -54,6 +54,24 @@
     // else{
     //     echo "kurang bro";
     // }
+
+    // switch case
+    $minum   = "jus";
+
+    switch ($minum) {
+        case 'teh';
+            echo 'ini teh';
+            break;
+        case 'kopi';
+            echo 'ini kopi';
+            break;
+        case 'jus';
+            echo 'ini jus';
+            break;
+        default;
+            echo 'salah';
+
+    }
 
 
 ?>
