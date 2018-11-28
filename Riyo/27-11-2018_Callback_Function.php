@@ -17,6 +17,7 @@ if( is_callable($callback)){
     call_user_func($callback, 'Nama lu bejo');
 }else{
     echo ' Dia Bukan Orang';
+    <button>Submit</button>
 }
 }
 
