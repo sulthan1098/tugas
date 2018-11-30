@@ -2,11 +2,11 @@
 
 
 
-if (isset($_GET['password'])){
-    echo $_GET['password'];
-}
+    if (isset($_GET['password'])){
+        echo $_GET['password'];
+    }
 
-$_GET + $_GET
+    // $_GET + $_GET
 
 // if (isset($_GET['password'])){
 //     echo $_GET['password'];
@@ -16,7 +16,7 @@ $_GET + $_GET
 ?>
 
 
-<form action="" method="post">
+<form action="" method="get">
 
 <input type="id" name="nama" >
 <input type="password" name="password" >
