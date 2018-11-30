@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="a.css">
 </head>
 <body>
-    <form action="tugas.php" method="POST">
-        <table  width="352" border="1" align="center">
+    <form action="tugas.php" method="POST" >
+        <table  width="352" border="1"  align="center" id="bagan">
           <tr>
-              <th colspan="3" scope="col">PROGRAM ARITMATIKA</th>
+              <th colspan="3" scope="col"><h6>PROGRAM ARITMATIKA</h6></th>
           </tr> 
           <tr>
-              <td width="126">Angka Pertama</td>
+              <td width="126"><P>Angka Pertama</P></td>
               <td width="196">
               <label>
                   <input type="text" name="nilai1">
@@ -23,7 +24,7 @@
           </tr>
 
           <tr>
-              <td width="126">Angka Kedua</td>
+              <td width="126"><p>Angka Kedua</p></td>
               <td width="196">
                     <label>
                         <input type="text" name="nilai2">
@@ -33,19 +34,27 @@
 
           <tr>
               
-				<td colspan="2">
+				<td colspan="3">
+                    <span class="pilih">
                         <select name="pilih">
                             <option>Tentukan</option>
                             <option >Penjumlahan</option>
                             <option >Pengurangan</option>
                     
                         </select>
-                    </td>
+                    </span>
+                </td>
             
           </tr>
           <tr>
-				<td><input type="reset" name="reset" value="reset"></td>
-				<td><input type="submit" name="Submit" value="Submit"></td>
+				<td>
+                    <!-- <input type="reset" name="reset" value="reset"> -->
+                    <button type="reset" name="reset" value="reset" class="btn-danger">Reset</button>
+                </td>
+				<td>
+                    <!-- <input type="submit" name="Submit" value="Submit"> -->
+                    <button type="submit" name="submit" value="submit" class="btn-success">Submit</button>
+                </td>
 			</tr>
         </table>
     </form>
@@ -61,3 +70,5 @@
 
 </body>
 </html>
+
+
