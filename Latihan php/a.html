@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <form action="tugas.php" method="POST">
+        <table  width="352" border="1" align="center">
+          <tr>
+              <th colspan="3" scope="col">PROGRAM ARITMATIKA</th>
+          </tr> 
+          <tr>
+              <td width="126">Angka Pertama</td>
+              <td width="196">
+              <label>
+                  <input type="text" name="nilai1">
+              </label>
+            </td>
+          </tr>
+
+          <tr>
+              <td width="126">Angka Kedua</td>
+              <td width="196">
+                    <label>
+                        <input type="text" name="nilai2">
+                    </label>
+                  </td>
+          </tr>
+
+          <tr>
+              
+				<td colspan="2">
+                        <select name="operator">
+                            <option>- Pilih -</option>
+                            <option value="+">Penjumlahan</option>
+                            <option value="-">Pengurangan</option>
+                            <option value="X">Perkalian</option>
+                            <option value="/">Pembagian</option>
+                        </select>
+                    </td>
+            
+          </tr>
+          <tr>
+				<td><input type="reset" name="reset" value="reset"></td>
+				<td><input type="submit" name="Submit" value="Submit"></td>
+			</tr>
+        </table>
+    </form>
+
+
+    
+</body>
+</html>

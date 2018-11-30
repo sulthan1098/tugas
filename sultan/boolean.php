@@ -12,24 +12,25 @@
     <h1>boolean</h1>
     <?php
     // //------- tipe data boolean -------
-    // $hasil = true;
-    // $hasil2 = false;
+    $hasil = true;
+    $hasil2 = false;
 
-    // //----------- if dan else -----------
-    // //----operator logika---
-    // //-------------else if 
-    // //== === > >= < <= !=
+    //----------- if dan else -----------
+    //----operator logika---
+    //-------------else if 
+    //== === > >= < <= !=
     // $password = 'sulthan';
 
     // if( $password == 'sulthan'){
     //     echo 'selamat anda berhasil masuk';
     // }else{
-    //     echo 'gagal! kamu salah memasukan password';j
-    //}//
+    //     echo 'gagal! kamu salah memasukan password';
 
-        // $uang_programer = 1000;
-        // $keyboard       = 2000;
-        // $uang_desingner = 4000;
+    // }
+
+        $uang_programer = 1000;
+        $keyboard       = 2000;
+        $uang_desingner = 4000;
     
         // // &&  atau ||
 
@@ -41,14 +42,14 @@
         //    }
 
 
-        // if( $uang_programer > $keyboard){
-        //     echo 'dibeli';
-        // }else if( $uang_desingner > $keyboard){
-        //     echo 'dibeli oleh desingner ';
-        //     //----if
-        //     if($uang_desingner >= $keyboard * 2){
-        //         echo 'dibeli dua kali oleh desingner!';
-        //     }
+        if( $uang_programer > $keyboard){
+            echo 'dibeli';
+        }else if( $uang_desingner > $keyboard){
+            echo 'dibeli oleh desingner ';
+            //----if
+            if($uang_desingner >= $keyboard * 2){
+                echo 'dibeli dua kali oleh desingner!';
+            }
 
         // }
         // else{
@@ -58,23 +59,23 @@
             
         //--------switch case------
 
-        $makanan = "burger";
+//         $makanan = "burger";
 
-        switch ($makanan) {
-            case 'burger':
-             echo 'ini burger';
-            break;
-            case 'nasi warteg':
-             echo 'ini nasi warteg';
-            break;
-            case 'sop kambing':
-             echo 'ini sop kambing';
-            break;
+//         switch ($makanan) {
+//             case 'burger':
+//              echo 'ini burger';
+//             break;
+//             case 'nasi warteg':
+//              echo 'ini nasi warteg';
+//             break;
+//             case 'sop kambing':
+//              echo 'ini sop kambing';
+//             break;
 
-            default:
-             echo 'tidak ada yang benar';
+//             default:
+//              echo 'tidak ada yang benar';
             
-}
+// }
         
 
 

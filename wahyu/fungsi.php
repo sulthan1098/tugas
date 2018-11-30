@@ -34,7 +34,7 @@
     // salam("kawan");
     // jarak();
     // jawab("bro");
-
+    
     // return fungsi
     function menghitung($x, $y){
         $hasil = $x - $y;
