@@ -16,30 +16,23 @@
 // $h= $bp + $bk ;
 
 
-$Angka1 = $_POST['textfield'];
-$Angka2 = $_POST['textfield2']; 
 // $hasil = $_POST['Submit'];
 // $hasil = $Angka1 + $Angka2;
 
 if (isset($_POST['Submit'])){
+  $Angka1 = $_POST['textfield'];
+  $Angka2 = $_POST['textfield2']; 
   $Angka1 = $_POST['texfield'];
   $Angka2 = $_POST['textfield2'];
 
   echo $_POST['Submit'] = $Angka1 + $Angka2;
 }
-// ?>
+?>
 
 
-// ?>
+<form action></form>
 
-
-
-
-
-
-
-
-<form id="form1" name="form1" method="post" action="">
+<form id="" name="form1" method="post" action="">
   <table width="352" border="1" align="center">
     <tr>
       <th colspan="3" scope="col">PROGRAM PENJUMLAHAN </th>
