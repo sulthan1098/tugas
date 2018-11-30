@@ -11,7 +11,7 @@
 
 $pass = '12322';
 $pass2 = 1234;        //bisa menggunakan data juga loh passwordnya !
-if( $pass > $pass2 ){    //selain harus angka
+if( $pass > '80-90' ){    //selain harus angka
     echo ' Lebih Besar !! ';
 }else{
     echo ' Salah,ga bisa Tidurr...';
