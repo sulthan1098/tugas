@@ -48,7 +48,7 @@
       <td width="126">Angka pertama </td>
       <td width="8">:</td>
       <td width="196"><label>
-        <input type="text" name="satu" />
+        <input type="text" name="" />
       </label></td>
     </tr>
     <tr>
