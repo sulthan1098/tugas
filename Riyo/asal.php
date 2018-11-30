@@ -16,21 +16,20 @@
 // $h= $bp + $bk ;
 
 
-$Angka1 = $_POST['textfield'];
-$Angka2 = $_POST['textfield2']; 
-// $hasil = $_POST['Submit'];
+// $Angka1 = $_POST['textfield'];
+// $Angka2 = $_POST['textfield2']; 
+// // $hasil = $_POST['Submit'];
 // $hasil = $Angka1 + $Angka2;
 
-if (isset($_POST['Submit'])){
-  $Angka1 = $_POST['texfield'];
-  $Angka2 = $_POST['textfield2'];
+// if (isset($_POST['Submit'])){
+//   $Angka1 = $_POST['texfield'];
+//   $Angka2 = $_POST['textfield2'];
 
-  echo $_POST['Submit'] = $Angka1 + $Angka2;
-}
+//   echo $_POST['Submit'] = $Angka1 + $Angka2;
+// }
 // ?>
 
 
-// ?>
 
 
 
@@ -39,7 +38,8 @@ if (isset($_POST['Submit'])){
 
 
 
-<form id="form1" name="form1" method="post" action="">
+
+<form id="form1" name="form1" method="post" action="hitung.php">
   <table width="352" border="1" align="center">
     <tr>
       <th colspan="3" scope="col">PROGRAM PENJUMLAHAN </th>
@@ -48,21 +48,17 @@ if (isset($_POST['Submit'])){
       <td width="126">Angka pertama </td>
       <td width="8">:</td>
       <td width="196"><label>
-        <input type="text" name="textfield" />
+        <input type="text" name="satu" />
       </label></td>
     </tr>
     <tr>
       <td>Angka kedua </td> 
       <td>:</td>
       <td><label>
-      <input type="text" name="textfield2" />
+      <input type="text" name="dua" />
       </label></td>
     </tr>
-<tr>
-<td width="126">Hasil</td>
-<td width="8">:</td>
-<td width="196"><label> <input type="text" name="hasil"></label></td>
-</tr>
+
 
 
     <tr>

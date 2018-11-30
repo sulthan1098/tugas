@@ -1,11 +1,20 @@
 <?php
 
-$bp=$_POST['bp'];
 
-$bk=$_POST['bk'];
+$Angka1 = $_POST ['satu'];
+$Angka2 = $_POST ['dua'];
+$Hasil = $Angka1 + $Angka2 ; 
 
-//Menampilkan hasil dari perhitungan dan operatornya bisa Anda ganti
+echo "Hasilnya adalah  " . $Hasil;
 
-$h=$bp + $bk ;
-
+if (empty($Angka1 or $Angka2))
+else if ($Hasil== empty)
+{
+echo "Gabisa bambank!";
+}
+else if{
+    ($Hasil==)
+}
 ?>
+
+
