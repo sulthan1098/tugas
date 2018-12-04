@@ -4,24 +4,25 @@
 
 
     switch($nilai){
-        case 100;
+        case $nilai > 90 && $nilai <= 100;
         echo "Grade A+";
         break;
-        case 80 >= 90;
+        case $nilai >= 80 && $nilai <= 90 ;
         echo "Grade A";
         break;
-        case 70 >= 80;
+        case $nilai >= 70 && $nilai < 80;
         echo "Grade B";
         break;
-        case 60;
+        case $nilai >= 60;
         echo "Grade C";
         break;
-        case 10 <= 60;
+        case $nilai < 60;
         echo "Grade D";
         break;
         default;
         echo "masukan nilainya";
+        break;
     }
-
+ 
 
 ?>
