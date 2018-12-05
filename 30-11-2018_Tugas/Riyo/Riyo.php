@@ -20,7 +20,9 @@
               <select name="jajang">
             <option>Pilih</option>
             <option>Buku (Rp 20.000)</option>
-            <option>Pulpen (Rp 2.500</option>
+            <option>Pulpen (Rp 2.500)</option>
+            <option>Penggaris (Rp 3.000)</option>
+            <option>Penghapus(Rp 500)</option>
             </select>
             
                   
@@ -35,6 +37,8 @@
                     <label>
             <select name="bambank">
             <option>Pilih</option>
+            <option>Buku (Rp 20.000)</option>
+            <option>Pulpen (Rp 2.500</option>
             <option>Penggaris (Rp 3.000)</option>
             <option>Penghapus(Rp 500)</option>
             </select>
