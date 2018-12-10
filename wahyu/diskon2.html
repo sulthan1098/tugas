@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="diskon2.css">
 </head>
 <body>
     <div class="main-wrapper">
         <div class="main">
-            <form action="diskon2.php" method="POST">
-                <h1>Toko Buah</h1>
+            <form action="dnr.php" method="POST">
+                <h1 style="text-align:center;">Toko Buah</h1>
+                <div id="underline"></div>
                 <table>
                     <tr>
                         <td>Duren (Rp.124.500)</td>
@@ -30,7 +33,9 @@
                         <td><input type="text" name="bayar"></td>
                     </tr>
                     <tr>
-                        <button type="submit">Submit</button>
+                       
+                          <td>  <button type="submit" class="btn btn-success" id="masuk">Submit</button></td>
+                        
                     </tr>
                 </table>
             </form>

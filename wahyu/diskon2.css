@@ -1,0 +1,40 @@
+.main-wrapper{
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    font-weight: bold;
+    color: #f00;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+#masuk{
+    border: 1px solid #b3ccf7;
+    background: #c3d9ff;
+    cursor: pointer;
+    padding: 2px 24px;
+
+}
+
+.main{
+    text-align: left;
+    padding: 5px;
+    background: #e8eefa;
+}
+
+table{
+    font-size: 12px;
+    width: 450px;
+}
+
+div#underline{
+    height: 3px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}

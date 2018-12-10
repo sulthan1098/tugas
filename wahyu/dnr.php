@@ -2,9 +2,8 @@
 
 $buah1 = $_POST['buah1'];
 $buah2 = $_POST['buah2'];
-$buah3 = $_POST['buah3'];
-$bayar=$_POST['bayar'];
-
+// $buah3 = $_POST['buah3'];
+$diskonan = 27100;
 if($buah1 == "Duren (Rp.124.500)"){
     $buah1 = 124500;
 }
@@ -27,6 +26,18 @@ else {
 }
 
 
+if($Hjumlah == "135000"){
+    $Hjumlah = $Hbuah1;
+}
+else{
+    $Hjumlah = $Hbuah;
+}
 
+
+$tambah = $buah1 + $buah2 ;
+
+$Hjumlah = $tambah - $diskonan;
+
+echo "Pilihannya . $Hbuah1";
 
 ?>
