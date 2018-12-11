@@ -4,7 +4,7 @@ $Barang1 = $_POST ['jajang'];
 $Barang2 = $_POST ['bambank'];
 $Nama1   = $_POST ['jajang'];
 $Nama2   = $_POST ['bambank'];
-$Hasil   = $Barang1 + $Barang2 ;
+
 
 if($Barang1 == "Buku (Rp 20.000)"){
     $Barang1 = 20000;
@@ -32,19 +32,23 @@ else{
     $Barang2 = 500;
 }
 
-if($Nama1 == "Buku (Rp 20.000)"){
-    
-}
-else if($Nama1 == "Pulpen (Rp 2.500)"){
-    
-}
-else if($Nama1 == "Penggaris (Rp 3.000)"){
-   
-}
-else{
-   
-}
+$Hasil   = $Barang1 + $Barang2 ;
 
-echo "Barang yang anda beli adalah : $Nama1";
+echo $Hasil;
+
+// if($Nama1 == "Buku (Rp 20.000)"){
+    
+// }
+// else if($Nama1 == "Pulpen (Rp 2.500)"){
+    
+// }
+// else if($Nama1 == "Penggaris (Rp 3.000)"){
+   
+// }
+// else{
+   
+// }
+
+// echo "Barang yang anda beli adalah : $Nama1";
 
 ?>
