@@ -36,30 +36,31 @@
     // jawab("bro");
     
     // return fungsi
-    function menghitung($x, $y){
-        $hasil = $x - $y;
-        return $hasil;
-    }
+    // function menghitung($x, $y){
+    //     $hasil = $x - $y;
+    //     return $hasil;
+    // }
 
-    $hasil = menghitung(8, 7) *2;
-    echo "hasilnya adalah ". $hasil;
-    echo "<br>";
-    echo "pengurangan 9 - 5 adalah ". menghitung(9,5);
+    // $hasil = menghitung(8, 7) *2;
+    // echo "hasilnya adalah ". $hasil;
+    // echo "<br>";
+    // echo "pengurangan 9 - 5 adalah ". menghitung(9,5);
 
 
     // scope (menggunakan global untuk mengenalkan variabel)
-    // $a = 4000;
-    // $b = 30;
+    $a = 4000;
+    $b = 30;
 
-    // function menghitung(){
-    //     // $c = $GLOBALS['a'] + $GLOBALS['b'];
+    function menghitung(){
+        // $c = $GLOBALS['a'] + $GLOBALS['b'];
 
-    //     global $a, $b;
-    //     $c = $a + $b;
-    //     return $c;
-    // }
+        global $a, $b;
+        $c = $a + $b;
+        // return;
+    }
 
-    // echo menghitung();
+    menghitung();
+    echo $c;
 
     // anonymous function
     // $helo = function($text){
