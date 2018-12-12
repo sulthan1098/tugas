@@ -1,4 +1,4 @@
-<?php
+ <?php
 // perkenalan array
     $kotak = array('anjing', 'kurakura', 'koala');
     

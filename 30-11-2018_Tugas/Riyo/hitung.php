@@ -32,23 +32,11 @@ else{
     $Barang2 = 500;
 }
 
+
 $Hasil   = $Barang1 + $Barang2 ;
 
-echo $Hasil;
-
-// if($Nama1 == "Buku (Rp 20.000)"){
-    
-// }
-// else if($Nama1 == "Pulpen (Rp 2.500)"){
-    
-// }
-// else if($Nama1 == "Penggaris (Rp 3.000)"){
-   
-// }
-// else{
-   
-// }
-
-// echo "Barang yang anda beli adalah : $Nama1";
+echo "Barang yang saya beli adalah $Nama1 & $Nama2";
+echo "<br>";
+echo "Harga yang harus saya bayar adalah $Hasil";
 
 ?>
