@@ -1,3 +1,6 @@
+<html>
+    <head> <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"></head>
+<body>
 <?php
 $hewan=array('macan','kucing','singa','kambing');
 sort($hewan);
@@ -9,7 +12,7 @@ $panjang = count($kota);
 
 ?>
 
-<table border=1>
+<table border=1 align='center'>
 <tr>
 <th>nama hewan</th>
 <th>nama kota</th>
@@ -23,4 +26,5 @@ $panjang = count($kota);
 <?php }?>
 
 </table>
-
+</body>
+</html>
