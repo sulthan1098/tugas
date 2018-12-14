@@ -12,6 +12,18 @@ $data = [['nama' => "alip",'kelas' => "10",
 
 foreach($data as $hasil){
     echo $hasil;
-}
 
 ?>
+
+}
+
+
+<table>
+<th></th>
+
+<td><?php $zfkzkf?></td>
+<td><?php $zfkzkf?></td>
+<td><?php $zfkzkf?></td>
+<td><?php $zfkzkf?></td>
+
+</table>

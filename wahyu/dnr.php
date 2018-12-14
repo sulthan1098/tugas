@@ -1,19 +1,14 @@
 <?php
-$hewan=array('macan','kucing','singa','kambing');
-$kota=array('depok','jakarta','bogor','bekasi');
-echo "tabel saya";
+$data = ['nama' => 'alip','matematika' => 70,'ipa' => 80, 'bahasa' => 90];
+
+// echo "<table border=1>";
+// echo "<tr><th>nama</th><th>pelajaran</th></tr>";
+
+for($r=0; $r<count($data); $r++){
+    foreach($data[$r] as $value => $key){
+        echo $value.$key;
+    }
+}
+
+
 ?>
-<html>
-<body>
-        <table border='1'>
-        <tr>
-            <td><?php echo "Nama Hewan"; ?></td>
-            <td><?php echo "Nama Kota"; ?></td>
-        </tr>
-        <tr>
-            <td><?php foreach($hewan as $hews => $n){echo "$n <br>";} ?></td>
-            <td><?php foreach($kota as $kots => $n){echo "$n <br>";} ?></td>
-        </tr>
-        </table>
-</body>
-</html>

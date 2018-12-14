@@ -17,9 +17,9 @@
 
 //  print_r($data);
 
-foreach($data as $value){
-    echo $value['nama'];
-}
+// foreach($data as $value){
+//     echo $value['nama'];
+// }
 
 // $jurusan=array('tkj','tkr','tkj','tsm','tkj','tkj','tsm');
 // sort($jurusan);
@@ -35,8 +35,9 @@ foreach($data as $value){
 <tr>
 <th>nama Taruna</th>
 <th>tingkatan kelas</th>
-<th>jurusan</th>
-<th>hoby</th>
+<th>pelajaran</th>
+<th>nilai</th>
+
 
 </tr>
 <?php
@@ -51,17 +52,36 @@ $data = [['nama' => "alip",
 "ipa" => 80,
 "bahasa" => 90],
 ];
+
+print_r ($data);
 ?>
+
+
+
+
 <?php 
+
+foreach($data as $value){
+    for($i=0; $value  $i++){ ?>
+        <tr>    
+            <td><?php echo $nama[$i]; ?></td>
+            <td><?php echo $kelas[$i]; ?></td>
+            <td><?php echo $jurusan[$i]; ?></td>
+            <td><?php echo $hoby[$i]; ?></td>
+        
+        </tr>
+        <?php }?>
+}
+
 for($i=0; $i < $panjang;  $i++){ ?>
-<tr>    
+<!-- <tr>    
     <td><?php echo $nama[$i]; ?></td>
     <td><?php echo $kelas[$i]; ?></td>
     <td><?php echo $jurusan[$i]; ?></td>
     <td><?php echo $hoby[$i]; ?></td>
 
 </tr>
-<?php }?>
+<?php }?> -->
 </table>
 
 </body>
