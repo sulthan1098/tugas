@@ -1,30 +1,9 @@
-<html>
-    <head> <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css"></head>
-<body>
 <?php
-$hewan=array('macan','kucing','singa','kambing');
-sort($hewan);
-$panjang = count($hewan);
+// $data=$_GET['na'];
+echo $_GET['bu'];
 
-$kota=array('depok','jakarta','bogor','bekasi');
-sort($kota);
-$panjang = count($kota);
-
+// if(isset($_POST['ba'])){
+//     echo $_POST['ba'];
+    
+// }
 ?>
-
-<table border=1 align='center'>
-<tr>
-<th>nama hewan</th>
-<th>nama kota</th>
-</tr>
-
-<?php for($i=0; $i < $panjang;  $i++){ ?>
-<tr>    
-    <td><?php echo $hewan[$i]; ?></td>
-    <td><?php echo $kota[$i]; ?></td>
-</tr>
-<?php }?>
-
-</table>
-</body>
-</html>
