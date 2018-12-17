@@ -3,6 +3,7 @@
 // $buah1 = $_POST['buah1'];
 // $buah2 = $_POST['buah2'];
 // $buah3 = $_POST['buah3'];
+
 $harga = $_POST['bayar'];
 $diskon1=0;
 $diskon2=0;
@@ -26,6 +27,19 @@ if(isset($_POST['buah3'])){
 }
 }
 
+// ===================================================================== //
+
+function testing()
+{
+    global $buah1,$buah2,$buah3,$harga;
+    echo $buah1.' | '.$buah2.' | '.$buah3.' | '.$harga;
+}
+
+echo testing(); // untuk jalanin function
+
+
+// ===================================================================== //
+
 // function buah1()
 // {
 //     global $buah1,$buah2,$harga;
@@ -34,7 +48,7 @@ if(isset($_POST['buah3'])){
 //     $tharga1=$hasil1-$diskon1;
 //     $kembalian1=$harga-$tharga1;
 //     echo "Bayar Rp ". number_format($harga,2,',','.')."<br>";
-//     echo "Mendapatkan Diskon Sebesar Rp ".number_format($diskon1,2,',','.')."<br>";
+//     echo "1 Mendapatkan Diskon Sebesar Rp ".number_format($diskon1,2,',','.')."<br>";
 //     echo "hasilnya adalah ".number_format($kembalian1,2,',','.');
 // }
 
@@ -48,23 +62,38 @@ if(isset($_POST['buah3'])){
 //     $tharga2=$hasil2-$diskon2;
 //     $kembalian2=$harga-$tharga2;
 //     echo "Bayar Rp ". number_format($harga,2,',','.')."<br>";
-//     echo "Mendapatkan Diskon Sebesar Rp ".number_format($diskon2,2,',','.')."<br>";
+//     echo "2 Mendapatkan Diskon Sebesar Rp ".number_format($diskon2,2,',','.')."<br>";
 //     echo "hasilnya adalah ".number_format($kembalian2,2,',','.');
 // }
 
-function buah3()
-{
-    global $buah1,$buah2,$buah3,$harga;
-    $hasil3=$buah1+$buah2+$buah3;
-    $diskon3=$hasil3*0.05;
-    $tharga3=$hasil3-$diskon3;
-    $kembalian3=$harga-$tharga3;
-    echo "Bayar Rp ". number_format($harga,2,',','.')."<br>";
-    echo "Mendapatkan Diskon Sebesar Rp ".number_format($diskon3,2,',','.')."<br>";
-    echo "hasilnya adalah Rp ".number_format($kembalian3,2,',','.');
-}
+// echo buah2();
 
-echo buah3();
+
+// function buah3()
+// {
+//     global $buah1,$buah2,$buah3,$harga;
+//     $hasil3=$buah1+$buah2+$buah3;
+//     $diskon3=$hasil3*0.05;
+//     $tharga3=$hasil3-$diskon3;
+//     $kembalian3=$harga-$tharga3;
+//     echo "Bayar Rp ". number_format($harga,2,',','.')."<br>";
+//     echo "3 Mendapatkan Diskon Sebesar Rp ".number_format($diskon3,2,',','.')."<br>";
+//     echo "hasilnya adalah Rp ".number_format($kembalian3,2,',','.');
+// }
+
+// echo buah3();
+
+// ===================================================================== //
+
+
+
+
+
+
+
+
+
+
 // echo buah2();
 
 

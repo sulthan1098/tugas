@@ -14,7 +14,7 @@ $data = [
 <th>nama</th>
 <th>kelas</th>
 <th>MTK</th>
-<th>IPA</th>
+<th>IPA</th> 
 <th>BAHASA</th>
 </tr>
 <?php
