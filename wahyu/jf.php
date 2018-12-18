@@ -13,10 +13,11 @@ $data = [
 <form action="tabel.php" method="get">
 <table class="table table-bordered">
 <tr>
-<th>Makanan</th>
-<th>Harga</th>
-<th>Pesan</th>
-<th>PILIH</th>
+<th>nama</th>
+<th>kelas</th>
+<th>MTK</th>
+<th>IPA</th> 
+<th>BAHASA</th>
 </tr>
 <?php
     foreach($data as $key => $value):
