@@ -1,6 +1,5 @@
 <?php 
-echo $_POST['nama'];
-
+echo $_GET['optradio'];
 
 
 

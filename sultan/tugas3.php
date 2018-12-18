@@ -13,7 +13,7 @@ $data = [
 <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-<form action="tukas3.php" method="post">
+<form action="tukas3.php" method="get">
 
 <table class="table table-bordered">
 <tr>
@@ -43,8 +43,9 @@ if( isset($_POST['radio'])){
     <td><?php echo $value['NISN'] ?></td>
     <td><?php echo $value['jurusan'] ?></td>
     <td><?php echo $value['sekolah'] ?></td>
-    <td><input type="radio" name="optradio"></td>
-</tr>
+    <td><input type="radio" name="optradio" value = <?php echo $value ;?>></td>
+</tr>/
+
 
 <?php endforeach; ?>
 
