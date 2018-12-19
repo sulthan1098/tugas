@@ -43,8 +43,8 @@ if( isset($_POST['radio'])){
     <td><?php echo $value['NISN'] ?></td>
     <td><?php echo $value['jurusan'] ?></td>
     <td><?php echo $value['sekolah'] ?></td>
-    <td><input type="radio" name="optradio" value = <?php echo $value ;?>></td>
-</tr>/
+    <td><input type="radio" name="optradio" value = <?php echo $value['nama'];?>></td>
+</tr>
 
 
 <?php endforeach; ?>

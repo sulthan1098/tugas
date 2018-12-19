@@ -35,30 +35,30 @@
             </div>
         </nav>
 
-<form action="gambar.html">
+<form action="gambar2.php" method="post">
     <section class="bg-light pt-4">
         <div class="container">
             <div class="row">  
                     <div class="col-md-3 col-3">
                         <a href="../image/download.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 1</figcaption>
+                        <button class="btn btn-primary" name="ba" value="ini gambar 1">Masuk</button>
                     
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download1.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download1.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 2</figcaption>
+                        <button class="btn btn-primary" name="ba" value="ini gambar 2">Masuk</button>
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download3.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download3.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 3</figcaption>
+                        <button class="btn btn-primary " name="ba" value="ini gambar 3">Masuk</button>
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download4.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download4.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 4</figcaption>
+                        <button class="btn btn-primary" name="ba" value="ini gambar 4">Masuk</button>
                     </div>               
             </div>
         </div>
