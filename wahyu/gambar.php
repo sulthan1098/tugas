@@ -13,36 +13,29 @@
 </head>
 <body>
         <nav>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#" class="menu-item">Home</a></li>
-                        <li><a href="#" class="menu-item">About</a></li>
-                        <li><a href="#" class="menu-item">Education</a></li>
-                        <li><a href="#" class="menu-item">Contact</a></li>
-                        <li><a href="#" class="menu-item">GitHub</a></li>
-                        <li><a href="#" class="menu-item">Support</a></li>
-                        <li><a href="#" class="menu-item">Login</a></li>
-                        <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
-                        <li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
-                    </ul>
+            <div class="menu">
+                <ul>
+                    <li><a href="#"><i class="fa fa-home"></i></a></li>
+                    <li><a href="#" class="menu-item">Home</a></li>
+                    <li><a href="#" class="menu-item">About</a></li>
+                    <li><a href="#" class="menu-item">Education</a></li>
+                    <li><a href="#" class="menu-item">Contact</a></li>
+                    <li><a href="#" class="menu-item">GitHub</a></li>
+                    <li><a href="#" class="menu-item">Support</a></li>
+                    <li><a href="#" class="menu-item">Login</a></li>
+                    <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
+                </ul>
                     <div class="search-form">
                         <form>
                             <input type="text" name="" placeholder="Cari Disini">
                         </form>
                     </div>
                     <a class="close"><i class="fa fa-times"></i></a>
-                </div>
-            </nav>
+            </div>
+        </nav>
 
-
-
-
-
-
-
-
-
+<form action="gambar.html">
     <section class="bg-light pt-4">
         <div class="container">
             <div class="row">  
@@ -50,6 +43,7 @@
                         <a href="../image/download.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download.jpg" class="img-fluid img-thumbnail" alt=""></a>
                         <figcaption class="figure-caption py-2">ini gambar</figcaption>
                         <button class="btn btn-primary">Masuk</button>
+                    
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download1.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download1.jpg" class="img-fluid img-thumbnail" alt=""></a>
@@ -69,7 +63,7 @@
             </div>
         </div>
     </section>
-
+</form>
 
 
 
