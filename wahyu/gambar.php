@@ -1,8 +1,16 @@
+<?php
+$data=[['nama' => 'gambar1','img' => 'download.jpg'],
+       ['nama' => 'gambar2','img' => 'download1.jpg'],
+       ['nama' => 'gambar3','img' => 'download3.jpg'],
+       ['nama' => 'gambar4','img' => 'download4.jpg']];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -35,31 +43,21 @@
             </div>
         </nav>
 
-<form action="gambar2.php" method="post">
+
+<form action="gambar2.php" method="post" enctype="multipart/form-data">
     <section class="bg-light pt-4">
-        <div class="container">
+        <div class="container">    
             <div class="row">  
-                    <div class="col-md-3 col-3">
-                        <a href="../image/download.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar 1</figcaption>
-                        <button class="btn btn-primary" name="ba" value="ini gambar 1">Masuk</button>
-                    
+
+<?php
+foreach($data as $key => $value):
+?>
+                    <div class="col-md-3 col-6">
+                        <img src="../image/<?php echo $value['img']; ?>">
+                        <figcaption class="figure-caption py-2"><?php echo $value['nama']; ?></figcaption>
+                        <button class="btn btn-primary" name="ba" value=<?php echo $value['nama'];?>>Masuk</button>        
                     </div>
-                    <div class="col-md-3 col-3">
-                        <a href="../image/download1.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download1.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar 2</figcaption>
-                        <button class="btn btn-primary" name="ba" value="ini gambar 2">Masuk</button>
-                    </div>
-                    <div class="col-md-3 col-3">
-                        <a href="../image/download3.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download3.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar 3</figcaption>
-                        <button class="btn btn-primary " name="ba" value="ini gambar 3">Masuk</button>
-                    </div>
-                    <div class="col-md-3 col-3">
-                        <a href="../image/download4.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download4.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar 4</figcaption>
-                        <button class="btn btn-primary" name="ba" value="ini gambar 4">Masuk</button>
-                    </div>               
+                    <?php endforeach; ?>
             </div>
         </div>
     </section>
