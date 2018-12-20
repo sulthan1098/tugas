@@ -19,6 +19,11 @@ if(isset($_POST['buah3'])){
 }
 }
 
+
+
+
+
+
 function buah($buah1,$buah2,$buah3){
     global $buah1,$buah2,$buah3,$harga;
     if($buah1 and $buah2){
