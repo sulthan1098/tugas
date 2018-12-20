@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -13,63 +13,61 @@
 </head>
 <body>
         <nav>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-home"></i></a></li>
-                        <li><a href="#" class="menu-item">Home</a></li>
-                        <li><a href="#" class="menu-item">About</a></li>
-                        <li><a href="#" class="menu-item">Education</a></li>
-                        <li><a href="#" class="menu-item">Contact</a></li>
-                        <li><a href="#" class="menu-item">GitHub</a></li>
-                        <li><a href="#" class="menu-item">Support</a></li>
-                        <li><a href="#" class="menu-item">Login</a></li>
-                        <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
-                        <li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
-                    </ul>
+            <div class="menu">
+                <ul>
+                    <li><a href="#"><i class="fa fa-home"></i></a></li>
+                    <li><a href="#" class="menu-item">Home</a></li>
+                    <li><a href="#" class="menu-item">About</a></li>
+                    <li><a href="#" class="menu-item">Education</a></li>
+                    <li><a href="#" class="menu-item">Contact</a></li>
+                    <li><a href="#" class="menu-item">GitHub</a></li>
+                    <li><a href="#" class="menu-item">Support</a></li>
+                    <li><a href="#" class="menu-item">Login</a></li>
+                    <li><a href="#" id="search"><i class="fa fa-search"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
+                </ul>
                     <div class="search-form">
                         <form>
                             <input type="text" name="" placeholder="Cari Disini">
                         </form>
                     </div>
                     <a class="close"><i class="fa fa-times"></i></a>
-                </div>
-            </nav>
+            </div>
+        </nav>
 
+        <header>
+        <a class="to_nav" href="#primary_nav">Menu</a>
+        </header>
 
-
-
-
-
-
-
-
+        
+<form action="gambar2.php" method="post">
     <section class="bg-light pt-4">
         <div class="container">
             <div class="row">  
                     <div class="col-md-3 col-3">
                         <a href="../image/download.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 1</figcaption>
+                        <button class="btn btn-primary" name="ba" value="ini gambar 1">Masuk</button>
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download1.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download1.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 2</figcaption>
+                        <button class="btn btn-primary" name="ba" value="ini gambar 2">Masuk</button>
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download3.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download3.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 3</figcaption>
+                        <button class="btn btn-primary " name="ba" value="ini gambar 3">Masuk</button>
                     </div>
                     <div class="col-md-3 col-3">
                         <a href="../image/download4.jpg" data-toggle="lightbox" data-gallery="img-gallery"><img src="../image/download4.jpg" class="img-fluid img-thumbnail" alt=""></a>
-                        <figcaption class="figure-caption py-2">ini gambar</figcaption>
-                        <button class="btn btn-primary">Masuk</button>
+                        <figcaption class="figure-caption py-2">ini gambar 4</figcaption>
+                        <button class="btn btn-primary" name="ba" value="ini gambar 4">Masuk</button>
                     </div>               
             </div>
         </div>
     </section>
-
+</form>
 
 
 
