@@ -56,7 +56,7 @@ foreach($data as $key => $value):
                         <img src="../image/<?php echo $value['img']; ?>">
                         <figcaption class="figure-caption py-2"><?php echo $value['nama']; ?></figcaption>
                         <button class="btn btn-primary" name="ba" value=<?php echo json_encode($value);?>>Masuk</button>        
-                        
+                        <!-- <button class="btn btn-primary" name="ba" value=<?php echo json_encode($data);?>>Masuk</button> -->
                     </div>
                     <?php endforeach; ?>
             </div>

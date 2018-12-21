@@ -3,11 +3,11 @@
 
 //========= Contoh Tunggal =========
 $ba=json_decode($_POST['ba']);
-// echo $_POST['ba'];
-// var_dump($ba);
-echo $ba->nama;
-echo '<br>';
-echo $ba->img;
+
+// echo "<img src='../image/'>".$ba->img;
+// // echo $ba->img;
+// echo '<br>';
+// echo $ba->nama;
 //========= Contoh Tunggal =========
 
 
@@ -22,8 +22,14 @@ echo $ba->img;
 // foreach($ba as $item){
 //     echo '<br>';
 //     echo $item->nama;
+//     echo '<br>';
+//     echo $item->img;
 // }
 //========= Contoh Jamak =========
 ?>
+
+<img src="../image/<?php echo $ba->img; ?>">
+<br>
+<?php echo $ba->nama;?>
 
 
