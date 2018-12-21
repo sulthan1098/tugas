@@ -1,15 +1,29 @@
 <?php
-// $file = file_get_contents("http://www.belajar.local/konversi.php");
-// $json = json_decode($file, true);
- 
-// foreach ($json as $key) {
-//     if (is_array($key)) {
-//         foreach ($key as $key => $value) {
-//             echo $key . ' : ' . $value . '<br />';
-//         }
-//     }
-// }
 
+
+//========= Contoh Tunggal =========
+$ba=json_decode($_POST['ba']);
 // echo $_POST['ba'];
+// var_dump($ba);
+echo $ba->nama;
+echo '<br>';
+echo $ba->img;
+//========= Contoh Tunggal =========
 
+
+
+
+
+
+
+//========= Contoh Jamak =========
+// $ba=json_decode($_POST['ba']);
+
+// foreach($ba as $item){
+//     echo '<br>';
+//     echo $item->nama;
+// }
+//========= Contoh Jamak =========
 ?>
+
+
